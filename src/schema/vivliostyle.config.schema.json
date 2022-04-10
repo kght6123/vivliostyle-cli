@@ -177,6 +177,16 @@
             },
             "disableFormatHtml": {
               "type": "boolean"
+            },
+            "replace": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "test": {},
+                  "match": {}
+                }
+              }
             }
           },
           "additionalProperties": false
